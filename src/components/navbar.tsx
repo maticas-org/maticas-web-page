@@ -65,7 +65,7 @@ export const Navbar = () => {
         <NavigationMenuItem>
           <Link href="/about-us">
             <NavigationMenuLink asChild>
-              <a className={navigationMenuTriggerStyle()}>Sobre Nosotros</a>
+              <a className={navigationMenuTriggerStyle()}>Contáctanos</a>
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>

@@ -1,88 +1,38 @@
-import {
-    Carousel,
-    CarouselContent,
-    CarouselItem,
-    CarouselNext,
-    CarouselPrevious,
-  } from "@/components/ui/carousel"
-  
-import {
-    Card,
-    CardContent,
-    CardDescription,
-    CardFooter,
-    CardHeader,
-    CardTitle,
-} from "@/components/ui/card"
-
-
-import { AspectRatio } from "@/components/ui/aspect-ratio"
-import { text } from "stream/consumers"
-import { AlignJustify } from "lucide-react"
+import React from 'react';
+import { Carousel } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export const MainCarousel = () => {
     return (
-
-        <AspectRatio ratio={16 / 9} style={{marginLeft: "auto", marginRight: "auto", width: "60%"}}>
-        <Carousel>
-        <CarouselContent>
-            <CarouselItem>
-                <Card className="rounded-md">
-                    <CardHeader>
-                    <img src="/src/assets/imgs/growing-kratky-purple-light.png"
-                        className="rounded-t-md"
-                        style={{textAlign: "center"}}
+        <div className="w-4/4 mx-auto">
+            <Carousel>
+                <Carousel.Item>
+                    <img
+                        className="d-block w-100"
+                        src="/src/assets/imgs/growing-kratky-purple-light-cropped.png"
+                        alt="First slide"
                     />
-                    </CardHeader>
-                    <CardContent>
-                    <CardTitle>First slide</CardTitle>
-                    <CardDescription>
-                        <p>Some description</p>
-                    </CardDescription>
-                    </CardContent>
-                </Card>
-            </CarouselItem>
+                    <Carousel.Caption style={{ backgroundColor: 'rgba(0, 0, 0, 0.5)', padding: '0px' }}>
+                        <h3><strong><em>Automation and Agriculture</em></strong></h3>
+                        <p>Maticas Tech contributes to the process of building opensource agriculture
+                           for people to use, disrupting the way we do agriculture in Colombia and the world.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
 
-            <CarouselItem>
-            <Card className="rounded-md">
-                <CardHeader>
-                <img src="/src/assets/imgs/growing-electronics-and-plants.png" 
-                    className="rounded-t-md"
-                    alt="Placeholder"
-                    style={{textAlign: "center"}}
-                />
-                </CardHeader>
-                <CardContent>
-                <CardTitle>Second slide</CardTitle>
-                <CardDescription>
-                    <p>Some description</p>
-                </CardDescription>
-                </CardContent>
-            </Card>
-            </CarouselItem>
-
-            <CarouselItem>
-            <Card>
-                <CardHeader>
-                <img src="/src/assets/imgs/kratky-box-and-electronics.png" 
-                    className="rounded-t-md"
-                    alt="Placeholder"
-                    style={{textAlign: "center"}}
-                />
-                </CardHeader>
-                <CardContent>
-                <CardTitle>Third slide</CardTitle>
-                <CardDescription>
-                    <p>Some description</p>
-                </CardDescription>
-                </CardContent>
-            </Card>
-            </CarouselItem>
-            
-        </CarouselContent>
-        <CarouselPrevious>Previous</CarouselPrevious>
-        <CarouselNext>Next</CarouselNext>
-        </Carousel>
-        </AspectRatio>
-    )
-}
+                <Carousel.Item>
+                    <img
+                        className="d-block w-100"
+                        src="/src/assets/imgs/caja-electronica-2.jpg"
+                        alt="Second slide"
+                    />
+                    <Carousel.Caption style={{ backgroundColor: 'rgba(0, 0, 0, 0.5)', padding: '0px' }}>
+                        <h3><strong><em>Automation and Agriculture</em></strong></h3>
+                        <p>Maticas Tech contributes to the process of building opensource agriculture
+                           for people to use, disrupting the way we do agriculture in Colombia and the world.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+            </Carousel>
+            <div className="h-8"></div>
+        </div>
+    );
+};
