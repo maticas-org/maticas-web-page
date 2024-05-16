@@ -7,11 +7,7 @@ import {
     CardTitle,
 } from "@/components/ui/card"
 
-
-import { AspectRatio } from "@/components/ui/aspect-ratio"
-import { text } from "stream/consumers"
-import { AlignJustify } from "lucide-react"
-
+import { Link } from 'react-router-dom';
 
 export const OurServices = () => {
 
@@ -40,8 +36,9 @@ export const OurServices = () => {
 
                 {/* Monitoreo inteligente */}
                 <Card className="rounded-md">
+                <Link to="/datalogger">
                     <CardHeader>
-                        <img src="/src/assets/imgs/growing-electronics-and-plants.png" 
+                        <img src="/src/assets/imgs/growing-electronics-and-plants-cropped.png" 
                             className="rounded-t-md"
                             alt="Placeholder"
                             style={{textAlign: "center"}}
@@ -54,6 +51,7 @@ export const OurServices = () => {
                             <p>Conoce el estado de tus cultivos minuto a minutos y toma decisiones informadas.</p>
                         </CardDescription>
                     </CardContent>
+                </Link>
                 </Card>
 
                 {/* Control con IA */}
