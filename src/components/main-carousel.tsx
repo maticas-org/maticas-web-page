@@ -22,7 +22,9 @@ import { AlignJustify } from "lucide-react"
 
 export const MainCarousel = () => {
     return (
-        <Carousel className="w-[80%] h-[80%] mx-auto" style={{ height: "80%" }} >
+
+        <AspectRatio ratio={16 / 9} style={{marginLeft: "auto", marginRight: "auto", width: "60%"}}>
+        <Carousel>
         <CarouselContent>
             <CarouselItem>
                 <Card className="rounded-md">
@@ -56,14 +58,11 @@ export const MainCarousel = () => {
                     <p>Some description</p>
                 </CardDescription>
                 </CardContent>
-
             </Card>
             </CarouselItem>
-            <CarouselItem>
 
-            <Card className="rounded-md"
-                  style={{textAlign: "center"}}
-            >
+            <CarouselItem>
+            <Card>
                 <CardHeader>
                 <img src="/src/assets/imgs/kratky-box-and-electronics.png" 
                     className="rounded-t-md"
@@ -84,5 +83,6 @@ export const MainCarousel = () => {
         <CarouselPrevious>Previous</CarouselPrevious>
         <CarouselNext>Next</CarouselNext>
         </Carousel>
+        </AspectRatio>
     )
 }

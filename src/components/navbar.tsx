@@ -13,6 +13,7 @@ import {
 } from "@/components/ui/navigation-menu"
 
 import { navigationMenuTriggerStyle } from "@/components/ui/navigation-menu"
+import { Separator } from "@/components/ui/separator"
 import { Link } from "@radix-ui/react-navigation-menu";
 
 
@@ -29,6 +30,8 @@ export const Navbar = () => {
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
+
+        <Separator orientation='vertical' className= 'bg-gray-200 h-5' />
 
         {/* Direct link for 'Inicio' */}
         <NavigationMenuItem>
@@ -55,6 +58,8 @@ export const Navbar = () => {
             </NavigationMenuLink>
           </NavigationMenuContent>
         </NavigationMenuItem>
+
+        <Separator orientation='vertical' className= 'bg-gray-200 h-5' />
 
         {/* Direct link for 'Sobre Nosotros'*/}
         <NavigationMenuItem>
