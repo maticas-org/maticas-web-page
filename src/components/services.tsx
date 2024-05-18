@@ -36,7 +36,7 @@ export const OurServices = () => {
 
                 {/* Monitoreo inteligente */}
                 <Card className="rounded-md">
-                <Link to="/datalogger">
+                <Link to="/services/datalogger">
                     <CardHeader>
                         <img src="/src/assets/imgs/growing-electronics-and-plants-cropped.png" 
                             className="rounded-t-md"

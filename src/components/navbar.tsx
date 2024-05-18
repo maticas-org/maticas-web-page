@@ -36,24 +36,18 @@ export const Navbar = () => {
         {/* Direct link for 'Inicio' */}
         <NavigationMenuItem>
           {/* Trigger for the dropdown */}
-          <NavigationMenuTrigger>Blog</NavigationMenuTrigger>
-
-          {/* Content of the dropdown */}
-          <NavigationMenuContent className="bg-white shadow-lg rounded-md p-12">
-            {/* Individual links within the dropdown */}
+          <Link href="/blog">
             <NavigationMenuLink asChild>
-              <Link href="/blog/vpd">
-                <a className="block p-2 hover:bg-gray-100 rounded">Todo sobre el VPD</a>
-              </Link>
+              <a className={navigationMenuTriggerStyle()}>Blog</a>
             </NavigationMenuLink>
-          </NavigationMenuContent>
+          </Link>
         </NavigationMenuItem>
 
         <Separator orientation='vertical' className= 'bg-gray-200 h-5' />
 
         {/* Direct link for 'Sobre Nosotros'*/}
         <NavigationMenuItem>
-          <Link href="/about-us">
+          <Link href="/contact-us">
             <NavigationMenuLink asChild>
               <a className={navigationMenuTriggerStyle()}>Contáctanos</a>
             </NavigationMenuLink>

@@ -2,7 +2,7 @@ import { TriangleAlert } from "lucide-react"
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
 import Table from 'react-bootstrap/Table';
 import { Separator } from "@radix-ui/react-separator";
-import { Navbar } from '../../components/navbar';
+import { Navbar } from '../../../components/navbar';
 import  VPDChart  from './VPDChart';
 import VPDSolver from "./VPDSolver";
 import { Button } from "@/components/ui/button";
