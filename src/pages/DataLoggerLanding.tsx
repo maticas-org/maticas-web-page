@@ -3,6 +3,7 @@ import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
 import Table from 'react-bootstrap/Table';
 import { Separator } from "@radix-ui/react-separator";
 import { Link } from "@radix-ui/react-navigation-menu";
+import { WhatsappTelegramFloatingButton } from '@/components/contact-floating-button';
 
 
 function DataLoggerLanding() {
@@ -18,6 +19,7 @@ function DataLoggerLanding() {
                 ya quedan sólo <strong>2 de 3</strong> cupos disponibles para unirte a la beta de nuestro servicio de monitoreo inteligente.
             </AlertDescription>
             </Alert>
+            <WhatsappTelegramFloatingButton />
 
             {/* Page Title */}
             <div className="h-6"></div>
@@ -246,6 +248,7 @@ function DataLoggerLanding() {
                 <img src="/header.svg" alt="Validación 1" className="w-4/5" style={{maxHeight: '40vh'}}/>
             </div>
             <Separator orientation='horizontal' className= 'bg-gray-200 w-4/5 mx-auto' style = {{height: '1vh'}} />
+
         </div>
     </>
   )

@@ -7,6 +7,7 @@ import  VPDChart  from './VPDChart';
 import VPDSolver from "./VPDSolver";
 import { Button } from "@/components/ui/button";
 import { Link } from 'react-router-dom';
+import { WhatsappTelegramFloatingButton } from '@/components/contact-floating-button';
 
 function VPDArticle() {
   return (
@@ -15,6 +16,7 @@ function VPDArticle() {
             
             {/* Nav bar */}
             <Navbar/>
+            <WhatsappTelegramFloatingButton/>
 
             {/* Page Title */}
             <div className="h-6"></div>
