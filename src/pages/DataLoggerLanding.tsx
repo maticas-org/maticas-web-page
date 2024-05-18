@@ -2,6 +2,7 @@ import { TriangleAlert } from "lucide-react"
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
 import Table from 'react-bootstrap/Table';
 import { Separator } from "@radix-ui/react-separator";
+import { Link } from "@radix-ui/react-navigation-menu";
 
 
 function DataLoggerLanding() {
@@ -65,7 +66,7 @@ function DataLoggerLanding() {
                     <div className=""> 👉🏼 Lux</div>
                     </td>
                     <td>
-                    <div><strong>VPD</strong> <em>(Vapour Pressure Deficit)</em></div>
+                    <div><a href="/blog/vpd"><strong>VPD</strong> <em>(Vapour Pressure Deficit)</em></a></div>
                     <div><strong>DLI</strong> <em>(Day Light Integral)</em></div>
                     <div><strong>DP</strong> <em>(Dew Point)</em></div>
                     </td>

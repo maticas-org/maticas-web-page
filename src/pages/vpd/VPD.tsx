@@ -2,7 +2,11 @@ import { TriangleAlert } from "lucide-react"
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
 import Table from 'react-bootstrap/Table';
 import { Separator } from "@radix-ui/react-separator";
-import { Navbar } from '../components/navbar';
+import { Navbar } from '../../components/navbar';
+import  VPDChart  from './VPDChart';
+import VPDSolver from "./VPDSolver";
+import { Button } from "@/components/ui/button";
+import { Link } from 'react-router-dom';
 
 function VPDArticle() {
   return (
@@ -164,6 +168,42 @@ function VPDArticle() {
             >
                 <p><strong>"</strong><em>Un buen manejo del VPD lleva a invernaderos más eficientes y cultivos más saludables.<strong>"</strong></em></p>
             </blockquote>
+        
+            {/* VPD Chart */}
+            <div className="h-12"></div>
+            <h2 className="text-2xl font-bold text-center">Visualización del VPD</h2>
+            <div className="h-4"></div>
+            <p className="text-1xl text-center">La siguiente gráfica muestra la variación del VPD en función de la temperatura y la humedad relativa.</p>
+            <p className="text-1xl text-center">Puedes ajustar los valores de temperatura y humedad para ver cómo cambia el VPD. Así como los rangos óptimos para diferentes etapas de crecimiento.</p>
+            <p className="text-1xl text-center">¡Juega con los valores y observa cómo afecta el VPD! Desarrollamos este recurso para tí 🌱, de modo que lo puedas consultar siempre que te haga falta.</p>
+            <div className="h-4"></div>
+            <VPDChart/>
+        
+            <p className="text-1xl text-center">👆 Esperamos que esta gráfica te haya ayudado a tener una idea más clara del comportamiento del VPD.</p>
+            <p className="text-1xl text-center">Para finalizar, miremos el ejemplo de <strong>1.06</strong> kPa de VPD en la gráfica (cuando la temperatura es de <strong>20°C</strong> y la humedad relativa es de <strong>60%</strong>).</p>
+            <p className="text-1xl text-center">Quiero que notes cómo podríamos pasar a estimular el estadío de flor tardía si aumentamos la temperatura a <strong>22.5°C</strong>, o también lo podríamos lograr si disminuimos la humedad relativa a <strong>50%</strong>.</p> 
+        
+            {/* VPD Solver */}
+            <div className="h-12"></div>
+            <h2 className="text-2xl font-bold text-center">Solucionador de VPD 💻</h2>
+            <div className="h-4"></div>
+            <p className="text-1xl text-center">¿Quieres saber cómo ajustar la temperatura y la humedad para alcanzar un VPD específico?</p>
+            <p className="text-1xl text-center">¡Usa nuestra herramienta para encontrar la solución!</p>
+            <div className="h-4"></div>
+            <VPDSolver/> 
+            <div className="h-16"></div>
+
+            <p className="text-1xl text-center">¿Hay algo más que te gustaría saber sobre el VPD? </p>
+            <p className="text-1xl text-center">¿Hay alguna otra herramienta que te gustaría que desarrolláramos para ti?</p>
+            <p className="text-1xl text-center">¡Déjanos tus comentarios y sugerencias! 🌱</p>
+            <div className="h-4"></div>
+
+            <Link to="/contact-us">
+                <Button className="w-1/2 mx-auto">Contáctanos, es gratis 😉 </Button>
+            </Link>
+            <div className="h-16"></div>
+
+            
         
             {/* Footer - This is not bullshit - references */}
             <div className="h-12"></div>

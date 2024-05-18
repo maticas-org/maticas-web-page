@@ -39,21 +39,11 @@ export const Navbar = () => {
           <NavigationMenuTrigger>Blog</NavigationMenuTrigger>
 
           {/* Content of the dropdown */}
-          <NavigationMenuContent className="bg-white shadow-lg rounded-md p-4">
+          <NavigationMenuContent className="bg-white shadow-lg rounded-md p-12">
             {/* Individual links within the dropdown */}
             <NavigationMenuLink asChild>
-              <Link href="/blog/article-1">
-                <a className="block p-2 hover:bg-gray-100 rounded">Artículo 1</a>
-              </Link>
-            </NavigationMenuLink>
-            <NavigationMenuLink asChild>
-              <Link href="/blog/article-2">
-                <a className="block p-2 hover:bg-gray-100 rounded">Artículo 2</a>
-              </Link>
-            </NavigationMenuLink>
-            <NavigationMenuLink asChild>
-              <Link href="/blog/article-3">
-                <a className="block p-2 hover:bg-gray-100 rounded">Artículo 3</a>
+              <Link href="/blog/vpd">
+                <a className="block p-2 hover:bg-gray-100 rounded">Todo sobre el VPD</a>
               </Link>
             </NavigationMenuLink>
           </NavigationMenuContent>
