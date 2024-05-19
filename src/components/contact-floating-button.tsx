@@ -1,4 +1,3 @@
-import './extra.css'
 import {
     AlertDialog,
     AlertDialogAction,

@@ -13,14 +13,14 @@ import { Link } from 'react-router-dom';
 export const OurNextBlogPosts = () => {
 
     return (
-        <div className="container mx-auto">
-            <h2 className="text-3xl font-bold text-center">Nuestros próximos artículos 🎯️</h2>
+      <div className="container mx-auto p-4">
+            <h2 className="text-3xl font-bold text-center mb-6">Nuestros próximos artículos 🎯️</h2>
             <div className="h-4"></div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"></div>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
-            {/* VPD */}
-            <Card className="rounded-md">
-                <Link to="/blog">
+            {/* DLI */}
+            <Card className="rounded-md shadow-md max-w-xs mx-auto">
+                <Link to="/blog/dli">
                     <CardHeader>
                         <img src="/src/assets/imgs/blog/dli-article-preview.png"
                             className="rounded-t-md"
@@ -38,6 +38,7 @@ export const OurNextBlogPosts = () => {
                     </CardContent>
                 </Link>
             </Card>
+        </div>
         </div>
     )
 }

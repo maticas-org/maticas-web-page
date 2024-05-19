@@ -68,9 +68,9 @@ function DataLoggerLanding() {
                     <div className=""> 👉🏼 Lux</div>
                     </td>
                     <td>
-                    <div><a href="/blog/vpd"><strong>VPD</strong> <em>(Vapour Pressure Deficit)</em></a></div>
-                    <div><strong>DLI</strong> <em>(Day Light Integral)</em></div>
-                    <div><strong>DP</strong> <em>(Dew Point)</em></div>
+                    <div><a className="text-blue-500" href="/blog/vpd" target="_blank"><strong>VPD</strong></a> <em>(Vapour Pressure Deficit)</em></div>
+                    <div><a className="text-blue-500" href="https://en.wikipedia.org/wiki/Daily_light_integral" target="_blank"><strong>DLI</strong></a> <em>(Day Light Integral)</em></div>
+                    <div><a className="text-blue-500" href="https://es.wikipedia.org/wiki/Punto_de_roc%C3%ADo" target="_blank"><strong>DP</strong></a> <em>(Dew Point)</em></div>
                     </td>
                     <td>
                     <div> 📍Visitas de reparación</div>

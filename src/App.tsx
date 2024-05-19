@@ -5,6 +5,8 @@ import DataLoggerLanding from './pages/DataLoggerLanding';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import { Blog } from './pages/blog/Blog';
 import VPDArticle from './pages/blog/vpd/VPD';
+import { ContactUs } from './pages/ContactUs';
+import { StillWorkingOnIt } from './pages/StillWorkingOnIt';
 
 function App() {
   return (
@@ -14,9 +16,10 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/blog" element={<Blog/>} />
-          <Route path="/contact-us" element={<Home/>} />
+          <Route path="/contact-us" element={<ContactUs />} />
           <Route path="/services/datalogger" element={<DataLoggerLanding />} />
           <Route path="/blog/vpd" element={<VPDArticle/>} />
+          <Route path="*" element={<StillWorkingOnIt />} />
         </Routes>
       </>
     </Router>

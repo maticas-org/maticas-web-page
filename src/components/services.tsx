@@ -19,6 +19,7 @@ export const OurServices = () => {
                 
                 {/* Inteligencia Artificial Agrícola */}
                 <Card className="rounded-md">
+                <Link to="/services/ai">
                     <CardHeader>
                         <img src="/src/assets/imgs/maticas-ai.png"
                             className="rounded-t-md"
@@ -32,6 +33,7 @@ export const OurServices = () => {
                             <p>Toma mejores decisiones con la ayuda de la IA y la analítica de datos.</p>
                         </CardDescription>
                     </CardContent>
+                </Link>
                 </Card>
 
                 {/* Monitoreo inteligente */}
@@ -56,6 +58,7 @@ export const OurServices = () => {
 
                 {/* Control con IA */}
                 <Card>
+                <Link to="/services/hardware">
                     <CardHeader>
                         <img src="/src/assets/imgs/pcb.png"
                             className="rounded-t-md"
@@ -69,10 +72,12 @@ export const OurServices = () => {
                             <p>Servicio de manejo de condiciones ambientales para tus cultivos. ¿Riego? ¿Luz? ¿Ventilación? ¡Nosotros lo controlamos por ti!</p>
                         </CardDescription>
                     </CardContent>
+                </Link>
                 </Card>
 
                 {/* Personalized services */}
                 <Card>
+                <Link to="/contact-us">
                     <CardHeader>
                         <img src="/src/assets/imgs/funny-creator-and-kratky.png"
                             className="rounded-t-md"
@@ -87,6 +92,7 @@ export const OurServices = () => {
                                Tenemos un equipo de expertos en diversas áreas de la tecnología y la agricultura.</p>  
                         </CardDescription>
                     </CardContent>
+                    </Link>
                 </Card>
             </div>
             <div className="h-8"></div>
