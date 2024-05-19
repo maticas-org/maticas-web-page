@@ -1,4 +1,3 @@
-import React from 'react';
 import { Carousel } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -24,7 +23,7 @@ export const AboutUs = () => {
                 <Carousel.Item>
                     <div className="d-flex justify-content-center align-items-center" style={{ height: '40vh' }}>
                         <img
-                            src="/src/assets/imgs/dave.jpg"
+                            src="/imgs/dave.jpg"
                             alt="Second slide"
                             className="d-block"
                             style={{ maxHeight: '100%', maxWidth: '100%' }}
@@ -39,7 +38,7 @@ export const AboutUs = () => {
                 <Carousel.Item>
                     <div className="d-flex justify-content-center align-items-center" style={{ height: '40vh' }}>
                         <img
-                            src="/src/assets/imgs/danielito.jpg"
+                            src="/imgs/danielito.jpg"
                             alt="Third slide"
                             className="d-block"
                             style={{ maxHeight: '100%', maxWidth: '100%' }}
@@ -54,7 +53,7 @@ export const AboutUs = () => {
                 <Carousel.Item>
                     <div className="d-flex justify-content-center align-items-center" style={{ height: '40vh' }}>
                         <img
-                            src="/src/assets/imgs/davecito.jpg"
+                            src="/imgs/davecito.jpg"
                             alt="Fourth slide"
                             className="d-block"
                             style={{ maxHeight: '100%', maxWidth: '100%' }}

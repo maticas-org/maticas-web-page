@@ -1,4 +1,3 @@
-import React from 'react';
 import { Carousel } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -9,7 +8,7 @@ export const MainCarousel = () => {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="/src/assets/imgs/growing-kratky-purple-light-cropped.png"
+                        src="/imgs/growing-kratky-purple-light-cropped.png"
                         alt="First slide"
                     />
                     <Carousel.Caption style={{ backgroundColor: 'rgba(0, 0, 0, 0.5)', padding: '0px' }}>
@@ -22,7 +21,7 @@ export const MainCarousel = () => {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="/src/assets/imgs/caja-electronica-2.jpg"
+                        src="/imgs/caja-electronica-2.jpg"
                         alt="Second slide"
                     />
                     <Carousel.Caption style={{ backgroundColor: 'rgba(0, 0, 0, 0.5)', padding: '0px' }}>

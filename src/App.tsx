@@ -2,7 +2,7 @@ import './App.css'
 
 import  Home  from './pages/Home';
 import DataLoggerLanding from './pages/DataLoggerLanding';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Blog } from './pages/blog/Blog';
 import VPDArticle from './pages/blog/vpd/VPD';
 import { ContactUs } from './pages/ContactUs';
@@ -16,9 +16,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/blog" element={<Blog/>} />
+          <Route path="/blog/vpd" element={<VPDArticle/>} />
           <Route path="/contact-us" element={<ContactUs />} />
           <Route path="/services/datalogger" element={<DataLoggerLanding />} />
-          <Route path="/blog/vpd" element={<VPDArticle/>} />
           <Route path="*" element={<StillWorkingOnIt />} />
         </Routes>
       </>

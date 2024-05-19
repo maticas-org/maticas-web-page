@@ -2,7 +2,6 @@ import {
     Card,
     CardContent,
     CardDescription,
-    CardFooter,
     CardHeader,
     CardTitle,
   } from "@/components/ui/card"
@@ -15,7 +14,7 @@ import {
       {
         id: 1,
         link: "/blog/vpd",
-        imgSrc: "/src/assets/imgs/blog/vpd-article-preview.png",
+        imgSrc: "/imgs/blog/vpd-article-preview.png",
         title: "Todo lo que necesitas saber de VPD (déficit de presión a vapor)",
         description: "¿Qué es VPD y cómo afecta a tus plantas? ¿Cómo controlarlo? y mucho más. Descúbrelo en este artículo. Además te compartimos 2 herramientas completamente gratuitas para ajustarlo en tu cultivo.",
       },

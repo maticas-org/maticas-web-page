@@ -2,7 +2,6 @@ import {
     Card,
     CardContent,
     CardDescription,
-    CardFooter,
     CardHeader,
     CardTitle,
 } from "@/components/ui/card"
@@ -22,7 +21,7 @@ export const OurNextBlogPosts = () => {
             <Card className="rounded-md shadow-md max-w-xs mx-auto">
                 <Link to="/blog/dli">
                     <CardHeader>
-                        <img src="/src/assets/imgs/blog/dli-article-preview.png"
+                        <img src="/imgs/blog/dli-article-preview.png"
                             className="rounded-t-md"
                             alt="Placeholder"
                             style={{textAlign: "center"}}

@@ -1,15 +1,10 @@
-import blackLogo from '/maticas-tech-logo.svg'
 import colorLogo from '/maticas-tech-logo-color-2.svg'
 
 import {
   NavigationMenu,
-  NavigationMenuContent,
-  NavigationMenuIndicator,
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
-  NavigationMenuTrigger,
-  NavigationMenuViewport,
 } from "@/components/ui/navigation-menu"
 
 import { navigationMenuTriggerStyle } from "@/components/ui/navigation-menu"

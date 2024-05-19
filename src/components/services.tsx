@@ -2,7 +2,6 @@ import {
     Card,
     CardContent,
     CardDescription,
-    CardFooter,
     CardHeader,
     CardTitle,
 } from "@/components/ui/card"
@@ -21,7 +20,7 @@ export const OurServices = () => {
                 <Card className="rounded-md">
                 <Link to="/services/ai">
                     <CardHeader>
-                        <img src="/src/assets/imgs/maticas-ai.png"
+                        <img src="/imgs/maticas-ai.png"
                             className="rounded-t-md"
                             style={{textAlign: "center"}}
                         />
@@ -40,7 +39,7 @@ export const OurServices = () => {
                 <Card className="rounded-md">
                 <Link to="/services/datalogger">
                     <CardHeader>
-                        <img src="/src/assets/imgs/growing-electronics-and-plants-cropped.png" 
+                        <img src="/imgs/growing-electronics-and-plants-cropped.png" 
                             className="rounded-t-md"
                             alt="Placeholder"
                             style={{textAlign: "center"}}
@@ -60,7 +59,7 @@ export const OurServices = () => {
                 <Card>
                 <Link to="/services/hardware">
                     <CardHeader>
-                        <img src="/src/assets/imgs/pcb.png"
+                        <img src="/imgs/pcb.png"
                             className="rounded-t-md"
                             style={{textAlign: "center"}}
                         />
@@ -79,7 +78,7 @@ export const OurServices = () => {
                 <Card>
                 <Link to="/contact-us">
                     <CardHeader>
-                        <img src="/src/assets/imgs/funny-creator-and-kratky.png"
+                        <img src="/imgs/funny-creator-and-kratky.png"
                             className="rounded-t-md"
                             style={{textAlign: "center"}}
                         />

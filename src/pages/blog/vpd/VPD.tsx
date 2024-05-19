@@ -1,8 +1,6 @@
-import { TriangleAlert } from "lucide-react"
-import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
 import Table from 'react-bootstrap/Table';
 import { Separator } from "@radix-ui/react-separator";
-import { Navbar } from '../../../components/navbar';
+import { Navbar } from '@/components/navbar';
 import  VPDChart  from './VPDChart';
 import VPDSolver from "./VPDSolver";
 import { Button } from "@/components/ui/button";
@@ -34,7 +32,7 @@ function VPDArticle() {
                     Una vez que el aire se satura, el agua se condensará para formar nubes, rocío o películas de agua sobre las hojas.
                 </p>
                 <div className="h-6"></div>
-                <img src="/src/assets/imgs/blog/vpd-formula.png" alt="Plants" className="w-4/5 mx-auto"/>
+                <img src="/imgs/blog/vpd-formula.png" alt="Plants" className="w-4/5 mx-auto"/>
                 <div className="h-6"></div>
                 <p className="text-1xl">
                     VPD, a diferencia de RH (Humedad Relativa), se correlaciona con las tasas de transpiración de las plantas, que influye 
@@ -48,7 +46,7 @@ function VPDArticle() {
                 <p className="text-1xl">
                     Las hojas vivas tienen un contenido de agua del 100% HR, lo que significa que están completamente saturadas. El aire, por otro lado, suele estar por debajo de la saturación, lo que causa que las plantas transpiren.
                 </p>
-                <img src="/src/assets/imgs/blog/high-vs-low-vpd.svg" alt="Plants" className="w-1/2 mx-auto"/>
+                <img src="/imgs/blog/high-vs-low-vpd.svg" alt="Plants" className="w-1/2 mx-auto"/>
                 <div className="h-4"></div>
                 {/* 2 columns for low and high VPD */}
 
@@ -75,7 +73,7 @@ function VPDArticle() {
                  A medida que el VPD disminuye, la transpiración también disminuye, e incluso puede detenerse por completo.
                 </p>
                 <div className="h-4"></div>
-                <img src="/src/assets/imgs/blog/water-uptake.svg" alt="Plants" className="w-1/2 mx-auto"/>
+                <img src="/imgs/blog/water-uptake.svg" alt="Plants" className="w-1/2 mx-auto"/>
                 <div className="h-4"></div>
 
                 <p className="text-1xl">

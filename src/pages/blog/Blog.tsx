@@ -1,6 +1,6 @@
-import { Navbar } from '../../components/navbar';
-import { OurBlogPosts } from '../../components/existing-blog-posts';
-import { OurNextBlogPosts } from '../../components/upcoming-blog-posts';
+import { Navbar } from '@/components/navbar';
+import { OurBlogPosts } from '@/components/existing-blog-posts';
+import { OurNextBlogPosts } from '@/components/upcoming-blog-posts';
 import { Button } from 'react-bootstrap';
 import { WhatsappTelegramFloatingButton } from '@/components/contact-floating-button';
 

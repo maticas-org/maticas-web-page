@@ -1,7 +1,6 @@
 import { useState } from "react";
 import Table from 'react-bootstrap/Table';
 import { Button } from "@/components/ui/button"
-import { buttonVariants } from "@/components/ui/button"
 
 const exp = Math.exp;
 

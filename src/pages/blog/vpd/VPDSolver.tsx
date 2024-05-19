@@ -15,11 +15,11 @@ function calculateActualVaporPressure(temp: number, humidity: number): number {
 }
 
 // Function to calculate VPD
-function calculateVPD(temp: number, humidity: number): number {
-    const Es = calculateSaturationVaporPressure(temp);
-    const Ea = calculateActualVaporPressure(temp, humidity);
-    return Es - Ea;
-}
+//function calculateVPD(temp: number, humidity: number): number {
+//    const Es = calculateSaturationVaporPressure(temp);
+//    const Ea = calculateActualVaporPressure(temp, humidity);
+//    return Es - Ea;
+//}
 
 // Function to solve for temperature to achieve target VPD with constant humidity
 function solveForTemperature(targetVPD: number, humidity: number, leafTempOffset: number): number {

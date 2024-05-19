@@ -2,7 +2,6 @@ import { TriangleAlert } from "lucide-react"
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
 import Table from 'react-bootstrap/Table';
 import { Separator } from "@radix-ui/react-separator";
-import { Link } from "@radix-ui/react-navigation-menu";
 import { WhatsappTelegramFloatingButton } from '@/components/contact-floating-button';
 
 
@@ -30,7 +29,7 @@ function DataLoggerLanding() {
             {/* Video Place Holder */}
             <div style={{position: 'relative', paddingBottom: '56.25%', height: 0}}>
                 <iframe src="https://player.vimeo.com/video/948103267?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-                         frameborder="0"
+                         frameBorder="0"
                          allow="autoplay; fullscreen; picture-in-picture; clipboard-write" 
                          title="Maticas Tech Monitoreo Inteligente Demo"
                          style = {{position: 'absolute', top: 0, left: 0, width: '100%', height: '100%'}} />
@@ -126,7 +125,7 @@ function DataLoggerLanding() {
             <div className="h-12"></div>
             <div style={{position: 'relative', paddingBottom: '56.25%', height: 0}}>
                 <iframe src="https://player.vimeo.com/video/948099520?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-                         frameborder="0"
+                         frameBorder="0"
                          allow="autoplay; fullscreen; picture-in-picture; clipboard-write" 
                          title="Maticas Tech Monitoreo Inteligente Demo"
                          style = {{position: 'absolute', top: 0, left: 0, width: '100%', height: '100%'}} />
