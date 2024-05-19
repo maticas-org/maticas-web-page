@@ -2,55 +2,74 @@ import React from 'react';
 import { Carousel } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-
 export const AboutUs = () => {
     return (
         <>
             <h2 className="text-3xl font-bold text-center">¿Quiénes somos?</h2>
             <div className="h-4"></div>
 
-            {/*Carousel*/}
+            {/* Carousel */}
             <Carousel interval={3000}>
                 <Carousel.Item>
-                    <img
-                        style = {{height: '40vh', marginLeft: 'auto', marginRight: 'auto'}}
-                        src="maticas-tech-logo-color-2.svg"
-                        alt="First slide"
-                    />
+                    <div className="d-flex justify-content-center align-items-center" style={{ height: '40vh' }}>
+                        <img
+                            src="maticas-tech-logo-color-2.svg"
+                            alt="First slide"
+                            className="d-block"
+                            style={{ maxHeight: '100%', maxWidth: '100%' }}
+                        />
+                    </div>
                 </Carousel.Item>
 
-                <Carousel.Item
-                        style = {{height: '40vh', marginLeft: 'auto', marginRight: 'auto'}}
-                >
-                    <img
-                        style = {{height: '100%', marginLeft: 'auto', marginRight: 'auto'}}
-                        src="/src/assets/imgs/danielito.jpg"
-                        alt="Second slide"
-                    />
-                    <Carousel.Caption style={{ backgroundColor: 'rgba(0, 0, 0, 0.5)', width: '60vw', padding: '0px' }}>
-                        <h3><strong><em>Danielito</em></strong></h3>
-                        <p>Profesional en Matemáticas y Computación, desarrollador backend y de deploy. Fornica bacano.</p>
-                    </Carousel.Caption>
+                <Carousel.Item>
+                    <div className="d-flex justify-content-center align-items-center" style={{ height: '40vh' }}>
+                        <img
+                            src="/src/assets/imgs/dave.jpg"
+                            alt="Second slide"
+                            className="d-block"
+                            style={{ maxHeight: '100%', maxWidth: '100%' }}
+                        />
+                        <Carousel.Caption style={{ backgroundColor: 'rgba(0, 0, 0, 0.5)', width: '60vw', padding: '0px' }}>
+                            <h3><strong><em>Dave Alsina</em></strong></h3>
+                            <p>CEO y Fundador. Profesional en Matemáticas y Computación, desarrollador de inteligencia artificial, backend, frontend y codesarrollador de electrónica y código de hardware.</p>
+                        </Carousel.Caption>
+                    </div>
                 </Carousel.Item>
 
-                <Carousel.Item
-                        style = {{height: '40vh', marginLeft: 'auto', marginRight: 'auto'}}
-                >
-                    <img
-                        style = {{height: '100%', marginLeft: 'auto', marginRight: 'auto'}}
-                        src="/src/assets/imgs/davecito.jpg"
-                        alt="Second slide"
-                    />
-                    <Carousel.Caption style={{ backgroundColor: 'rgba(0, 0, 0, 0.5)', width: '60vw', padding: '0px' }}>
-                        <h3><strong><em>Dave</em></strong></h3>
-                        <p>Profesional en Matemáticas y Computación, desarollador de lo que toque, y de lo que no también. CEO y fundador de Maticas Tech.</p>
-                    </Carousel.Caption>
+                <Carousel.Item>
+                    <div className="d-flex justify-content-center align-items-center" style={{ height: '40vh' }}>
+                        <img
+                            src="/src/assets/imgs/danielito.jpg"
+                            alt="Third slide"
+                            className="d-block"
+                            style={{ maxHeight: '100%', maxWidth: '100%' }}
+                        />
+                        <Carousel.Caption style={{ backgroundColor: 'rgba(0, 0, 0, 0.5)', width: '60vw', padding: '0px' }}>
+                            <h3><strong><em>Danielito</em></strong></h3>
+                            <p>Gran Contribuidor. Profesional en Matemáticas y Computación, desarrollador backend, frontend, contenerización y despliegue de aplicaciones.</p>
+                        </Carousel.Caption>
+                    </div>
                 </Carousel.Item>
 
+                <Carousel.Item>
+                    <div className="d-flex justify-content-center align-items-center" style={{ height: '40vh' }}>
+                        <img
+                            src="/src/assets/imgs/davecito.jpg"
+                            alt="Fourth slide"
+                            className="d-block"
+                            style={{ maxHeight: '100%', maxWidth: '100%' }}
+                        />
+                        <Carousel.Caption style={{ backgroundColor: 'rgba(0, 0, 0, 0.5)', width: '60vw', padding: '0px' }}>
+                            <h3><strong><em>Davecito</em></strong></h3>
+                            <p>El mismo Dave Alsina pero chistoso.</p>
+                        </Carousel.Caption>
+                    </div>
+                </Carousel.Item>
             </Carousel>
+
             <div className="h-6"></div>
 
-            {/*Propósito*/}
+            {/* Propósito */}
             <div className="w-3/4 mx-auto">
                 <h3 className="text-2xl font-bold">Nuestro Propósito</h3>
                 <div className="h-4"></div>

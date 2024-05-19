@@ -29,6 +29,13 @@ export const ContactUs = () => {
                 </a>
             </p>
             <p className="text-center"> Si prefieres llamar, puedes hacerlo al número: <a href="tel:+573212585695" className="text-blue-500">+57 321 2585695</a></p>
+            <div className="h-8"></div>
+
+            <img
+                style = {{width: '40vw', marginLeft: 'auto', marginRight: 'auto'}}
+                src="footer.svg"
+                alt="First slide"
+            />
             <WhatsappTelegramFloatingButton/>
         </div>
     )

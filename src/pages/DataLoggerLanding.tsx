@@ -28,9 +28,14 @@ function DataLoggerLanding() {
             <div className="h-6"></div>
 
             {/* Video Place Holder */}
-            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowFullScreen
-                    style={{ width: '100%', height: '500px' }}
-            />
+            <div style={{position: 'relative', paddingBottom: '56.25%', height: 0}}>
+                <iframe src="https://player.vimeo.com/video/948103267?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                         frameborder="0"
+                         allow="autoplay; fullscreen; picture-in-picture; clipboard-write" 
+                         title="Maticas Tech Monitoreo Inteligente Demo"
+                         style = {{position: 'absolute', top: 0, left: 0, width: '100%', height: '100%'}} />
+            </div>
+
             <div className="h-12"></div>
 
             {/* Description */}
@@ -119,11 +124,14 @@ function DataLoggerLanding() {
 
             {/* How this product and offer works video */}
             <div className="h-12"></div>
-            <div className="w-4/5 mx-auto">
-                <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowFullScreen
-                        style={{ width: '100%', height: '500px' }}
-                />
+            <div style={{position: 'relative', paddingBottom: '56.25%', height: 0}}>
+                <iframe src="https://player.vimeo.com/video/948099520?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                         frameborder="0"
+                         allow="autoplay; fullscreen; picture-in-picture; clipboard-write" 
+                         title="Maticas Tech Monitoreo Inteligente Demo"
+                         style = {{position: 'absolute', top: 0, left: 0, width: '100%', height: '100%'}} />
             </div>
+            <script src="https://player.vimeo.com/api/player.js"></script>
 
             {/* What is the cost of the service? */}
             <div className="h-12"></div>
