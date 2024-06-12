@@ -3,11 +3,48 @@ import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
 import Table from 'react-bootstrap/Table';
 import { Separator } from "@radix-ui/react-separator";
 import { WhatsappTelegramFloatingButton } from '@/components/contact-floating-button';
+import { Helmet } from 'react-helmet';
 
 
 function DataLoggerLanding() {
   return (
     <>
+
+        <Helmet>
+            <title>Monitoreo Inteligente | Maticas Tech - Soluciones Agrícolas Inteligentes</title>
+            <meta name="description" content="Monitorea tu cultivo, humedad, temperatura, déficit de presión a vapor (VPD), integral diaria de luz (DLI) y toma decisiones informadas e inteligentes con nuestra solución, obten mejores resultados automatizados que se traducen en más dinero y mejores cosechas." />
+            <meta name="keywords" content="agricultura inteligente, déficit de presión a vapor, integral diaria de luz, VPD, DLI, temperatura, humedad, mejora rendimientos de cultivo, monitoreo de cultivo, IA en agricultura, aprendizaje automático en agricultura, registrador de datos, visualización de datos, análisis de datos, IoT en agricultura, Maticas Tech" />
+
+            <meta property='og:title' content='Monitoreo Inteligente | Maticas Tech - Soluciones Agrícolas Inteligentes'/>
+            <meta property='og:description' content='Monitorea tu cultivo, humedad, temperatura, déficit de presión a vapor (VPD), integral diaria de luz (DLI) y toma decisiones informadas e inteligentes con nuestra solución, obten mejores resultados automatizados que se traducen en más dinero y mejores cosechas.'/>
+            <script type="application/ld+json">
+            {JSON.stringify({
+                "@context": "http://schema.org",
+                "@type": "WebPage",
+                "name": "Blog VPD",
+                "description": "Monitorea tu cultivo, humedad, temperatura, déficit de presión a vapor (VPD), integral diaria de luz (DLI) y toma decisiones informadas e inteligentes con nuestra solución, obten mejores resultados automatizados que se traducen en más dinero y mejores cosechas.",
+                "url": "http://www.maticas-tech.com/es/servicios/registrador-de-datos",
+                "inLanguage": "es",
+                "breadcrumb": {
+                "@type": "BreadcrumbList",
+                },
+                "author": {
+                "@type": "Organization",
+                "name": "Maticas Tech",
+                "url": "http://www.maticas-tech.com/es"
+                },
+                "publisher": {
+                "@type": "Organization",
+                "name": "Maticas Tech",
+                "url": "http://www.maticas-tech.com/es"
+                },
+                "datePublished": "2024-06-11",
+                "dateModified": "2024-06-11"
+            })}
+            </script>
+        </Helmet>
+
+
         <div>
             
             {/* Alert */}
@@ -72,7 +109,7 @@ function DataLoggerLanding() {
                     <div className=""> 👉🏼 Lux</div>
                     </td>
                     <td>
-                    <div><a className="text-blue-500" href="/blog/vpd" target="_blank"><strong>VPD</strong></a> <em>(Vapour Pressure Deficit)</em></div>
+                    <div><a className="text-blue-500" href="/es/blog/vpd" target="_blank"><strong>VPD</strong></a> <em>(Vapour Pressure Deficit)</em></div>
                     <div><a className="text-blue-500" href="https://en.wikipedia.org/wiki/Daily_light_integral" target="_blank"><strong>DLI</strong></a> <em>(Day Light Integral)</em></div>
                     <div><a className="text-blue-500" href="https://es.wikipedia.org/wiki/Punto_de_roc%C3%ADo" target="_blank"><strong>DP</strong></a> <em>(Dew Point)</em></div>
                     </td>
@@ -206,9 +243,9 @@ function DataLoggerLanding() {
                         <div className=""> 👉🏼 Lux</div>
                         </td>
                         <td>
-                        <div><strong>VPD</strong> <em>(Vapour Pressure Deficit)</em></div>
-                        <div><strong>DLI</strong> <em>(Day Light Integral)</em></div>
-                        <div><strong>DP</strong> <em>(Dew Point)</em></div>
+                        <div><a className="text-blue-500" href="/es/blog/vpd" target="_blank"><strong>VPD</strong></a> <em>(Vapour Pressure Deficit)</em></div>
+                        <div><a className="text-blue-500" href="https://en.wikipedia.org/wiki/Daily_light_integral" target="_blank"><strong>DLI</strong></a> <em>(Day Light Integral)</em></div>
+                        <div><a className="text-blue-500" href="https://es.wikipedia.org/wiki/Punto_de_roc%C3%ADo" target="_blank"><strong>DP</strong></a> <em>(Dew Point)</em></div>
                         </td>
                         <td>
                         <div> 📍Visitas de reparación</div>
@@ -245,7 +282,7 @@ function DataLoggerLanding() {
 
             <div className="h-6"></div>
             <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-                <a href="/contact-us">Escribirnos es gratis.</a>
+                <a href="/es/contactanos">Escribirnos es gratis.</a>
             </button>
 
             {/* Logos de validación */}

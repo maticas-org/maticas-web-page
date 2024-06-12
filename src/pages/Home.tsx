@@ -15,6 +15,42 @@ function Home() {
 
         <meta property='og:title' content='Inicio | Maticas Tech - Soluciones Agrícolas Inteligentes'/>
         <meta property='og:description' content='Bienvenido a Maticas Tech, su proveedor principal de soluciones agrícolas inteligentes utilizando IA, IoT y aprendizaje automático para una agricultura eficiente y gestión de datos.'/>
+
+        <link rel="alternate" href="http://www.maticas-tech.com/es" hreflang="es" />
+        <link rel="alternate" href="http://www.maticas-tech.com" hreflang="en" />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "http://schema.org",
+            "@type": "WebPage",
+            "name": "Inicio",
+            "description": "Bienvenido a Maticas Tech, su proveedor principal de soluciones de agricultura inteligente utilizando IA, IoT y aprendizaje automático para una gestión eficiente de la agricultura y los datos.",
+            "url": "http://www.maticas-tech.com/es",
+            "inLanguage": "es",
+            "breadcrumb": {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Inicio",
+                  "item": "http://www.maticas-tech.com/es"
+                }
+              ]
+            },
+            "author": {
+              "@type": "Organization",
+              "name": "Maticas Tech",
+              "url": "http://www.maticas-tech.com/es"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Maticas Tech",
+              "url": "http://www.maticas-tech.com/es"
+            },
+            "datePublished": "2024-06-11",
+            "dateModified": "2024-06-11"
+          })}
+        </script>
       </Helmet>
 
       <div>
