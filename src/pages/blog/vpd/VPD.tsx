@@ -6,10 +6,19 @@ import VPDSolver from "./VPDSolver";
 import { Button } from "@/components/ui/button";
 import { Link } from 'react-router-dom';
 import { WhatsappTelegramFloatingButton } from '@/components/contact-floating-button';
+import { Helmet } from 'react-helmet';
 
 function VPDArticle() {
   return (
     <>
+        <Helmet>
+            <title>Blog VPD | Maticas Tech - Soluciones de Agricultura Inteligente</title>
+            <meta name="description" content="qué es el déficit de presión de vapor, cómo controlar el déficit de presión de vapor, beneficios de controlar el déficit de presión de vapor, consecuencias de no controlar el déficit de presión de vapor, cómo controlar el déficit de presión de vapor, gráfico de VPD, solucionador de VPD todo en un solo lugar." />
+            <meta name="keywords" content="déficit de presión de vapor, VPD, calculadora de déficit de presión de vapor, calculadora de VPD, qué es VPD, cómo controlar VPD, beneficios de controlar VPD, consecuencias de no controlar VPD, gráfico de VPD, solucionador de VPD, agricultura inteligente, Maticas Tech" />
+
+            <meta property='og:title' content='Blog VPD | Maticas Tech - Soluciones de Agricultura Inteligente'/>
+            <meta property='og:description' content='qué es el déficit de presión de vapor, cómo controlar el déficit de presión de vapor, beneficios de controlar el déficit de presión de vapor, consecuencias de no controlar el déficit de presión de vapor, cómo controlar el déficit de presión de vapor, gráfico de VPD, solucionador de VPD todo en un solo lugar.'/>
+        </Helmet>
         <div>
             
             {/* Nav bar */}
