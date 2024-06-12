@@ -16,8 +16,6 @@ function Home() {
         <meta property='og:title' content='Inicio | Maticas Tech - Soluciones Agrícolas Inteligentes'/>
         <meta property='og:description' content='Bienvenido a Maticas Tech, su proveedor principal de soluciones agrícolas inteligentes utilizando IA, IoT y aprendizaje automático para una agricultura eficiente y gestión de datos.'/>
 
-        <link rel="alternate" href="http://www.maticas-tech.com/es" hreflang="es" />
-        <link rel="alternate" href="http://www.maticas-tech.com" hreflang="en" />
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "http://schema.org",
