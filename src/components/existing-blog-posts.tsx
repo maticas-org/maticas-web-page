@@ -13,7 +13,7 @@ import {
     const articles = [
       {
         id: 1,
-        link: "/blog/vpd",
+        link: "/es/blog/vpd",
         imgSrc: "/imgs/blog/vpd-article-preview.png",
         title: "Todo lo que necesitas saber de VPD (déficit de presión a vapor)",
         description: "¿Qué es VPD y cómo afecta a tus plantas? ¿Cómo controlarlo? y mucho más. Descúbrelo en este artículo. Además te compartimos 2 herramientas completamente gratuitas para ajustarlo en tu cultivo.",
@@ -21,7 +21,7 @@ import {
       // Add more articles as needed
       {
         id: 2,
-        link: "/blog",
+        link: "/es/blog",
         imgSrc: "",
         title: "",
         description: "",
@@ -29,7 +29,7 @@ import {
 
       {
         id: 3,
-        link: "/blog",
+        link: "/es/blog",
         imgSrc: "",
         title: "",
         description: "",

@@ -14,11 +14,11 @@ function App() {
     <Router>
       <>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/blog" element={<Blog/>} />
-          <Route path="/blog/vpd" element={<VPDArticle/>} />
-          <Route path="/contact-us" element={<ContactUs />} />
-          <Route path="/services/datalogger" element={<DataLoggerLanding />} />
+          <Route path="/es" element={<Home />} />
+          <Route path="/es/blog" element={<Blog/>} />
+          <Route path="/es/blog/vpd" element={<VPDArticle/>} />
+          <Route path="/es/contactanos" element={<ContactUs />} />
+          <Route path="/es/servicios/registrador-de-datos" element={<DataLoggerLanding />} />
           <Route path="*" element={<StillWorkingOnIt />} />
         </Routes>
       </>

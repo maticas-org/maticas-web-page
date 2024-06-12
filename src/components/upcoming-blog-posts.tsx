@@ -19,7 +19,7 @@ export const OurNextBlogPosts = () => {
 
             {/* DLI */}
             <Card className="rounded-md shadow-md max-w-xs mx-auto">
-                <Link to="/blog/dli">
+                <Link to="es/blog/dli">
                     <CardHeader>
                         <img src="/imgs/blog/dli-article-preview.png"
                             className="rounded-t-md"

@@ -18,7 +18,7 @@ export const OurServices = () => {
                 
                 {/* Inteligencia Artificial Agrícola */}
                 <Card className="rounded-md">
-                <Link to="/services/ai">
+                <Link to="/es/servicios/inteligencia-artificial">
                     <CardHeader>
                         <img src="/imgs/maticas-ai.png"
                             className="rounded-t-md"
@@ -37,7 +37,7 @@ export const OurServices = () => {
 
                 {/* Monitoreo inteligente */}
                 <Card className="rounded-md">
-                <Link to="/services/datalogger">
+                <Link to="/es/servicios/registrador-de-datos">
                     <CardHeader>
                         <img src="/imgs/growing-electronics-and-plants-cropped.png" 
                             className="rounded-t-md"
@@ -57,7 +57,7 @@ export const OurServices = () => {
 
                 {/* Control con IA */}
                 <Card>
-                <Link to="/services/hardware">
+                <Link to="/es/servicios/hardware">
                     <CardHeader>
                         <img src="/imgs/pcb.png"
                             className="rounded-t-md"
@@ -76,7 +76,7 @@ export const OurServices = () => {
 
                 {/* Personalized services */}
                 <Card>
-                <Link to="/contact-us">
+                <Link to="es/contactanos">
                     <CardHeader>
                         <img src="/imgs/funny-creator-and-kratky.png"
                             className="rounded-t-md"

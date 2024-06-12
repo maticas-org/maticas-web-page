@@ -12,8 +12,8 @@ export const AboutUs = () => {
                 <Carousel.Item>
                     <div className="d-flex justify-content-center align-items-center" style={{ height: '40vh' }}>
                         <img
-                            src="maticas-tech-logo-color-2.svg"
-                            alt="First slide"
+                            src="/maticas-tech-logo-color-2.svg"
+                            alt="Maticas Tech Logo with color"
                             className="d-block"
                             style={{ maxHeight: '100%', maxWidth: '100%' }}
                         />
@@ -24,7 +24,7 @@ export const AboutUs = () => {
                     <div className="d-flex justify-content-center align-items-center" style={{ height: '40vh' }}>
                         <img
                             src="/imgs/dave.jpg"
-                            alt="Second slide"
+                            alt="Dave Alsina Founder and CEO photo"
                             className="d-block"
                             style={{ maxHeight: '100%', maxWidth: '100%' }}
                         />
@@ -39,7 +39,7 @@ export const AboutUs = () => {
                     <div className="d-flex justify-content-center align-items-center" style={{ height: '40vh' }}>
                         <img
                             src="/imgs/danielito.jpg"
-                            alt="Third slide"
+                            alt="Daniel Leyva contributor photo"
                             className="d-block"
                             style={{ maxHeight: '100%', maxWidth: '100%' }}
                         />
@@ -54,7 +54,7 @@ export const AboutUs = () => {
                     <div className="d-flex justify-content-center align-items-center" style={{ height: '40vh' }}>
                         <img
                             src="/imgs/davecito.jpg"
-                            alt="Fourth slide"
+                            alt="Funny photo of Dave Alsina"
                             className="d-block"
                             style={{ maxHeight: '100%', maxWidth: '100%' }}
                         />

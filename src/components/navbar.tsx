@@ -19,7 +19,7 @@ export const Navbar = () => {
         
         {/* Direct link for the logo */}
         <NavigationMenuItem>
-          <Link href="/">
+          <Link href="/es">
             <NavigationMenuLink asChild>
               <img src={colorLogo} alt="Maticas Tech" className="h-12" />
             </NavigationMenuLink>
@@ -31,7 +31,7 @@ export const Navbar = () => {
         {/* Direct link for 'Inicio' */}
         <NavigationMenuItem>
           {/* Trigger for the dropdown */}
-          <Link href="/blog">
+          <Link href="/es/blog">
             <NavigationMenuLink asChild>
               <a className={navigationMenuTriggerStyle()}>Blog</a>
             </NavigationMenuLink>
@@ -42,7 +42,7 @@ export const Navbar = () => {
 
         {/* Direct link for 'Sobre Nosotros'*/}
         <NavigationMenuItem>
-          <Link href="/contact-us">
+          <Link href="/es/contactanos">
             <NavigationMenuLink asChild>
               <a className={navigationMenuTriggerStyle()}>Contáctanos</a>
             </NavigationMenuLink>
