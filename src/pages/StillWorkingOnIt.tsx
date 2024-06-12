@@ -13,7 +13,7 @@ export const StillWorkingOnIt = () => {
             <p className="text-center">Nos movemos lo más rápido posible para traerte esta información.</p>
             <p className="text-center">Si tienes alguna pregunta, sobre el contenido de esta página o cualquier otro tema, no dudes en contactarnos.</p>
             <div className="h-8"></div>
-            <Button variant="primary" href="/contact-us"> ¡Hablemos! </Button>
+            <Button variant="primary" href="/es/contactanos"> ¡Hablemos! </Button>
 
             <WhatsappTelegramFloatingButton/>
         </div>
