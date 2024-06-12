@@ -76,7 +76,7 @@ export const OurServices = () => {
 
                 {/* Personalized services */}
                 <Card>
-                <Link to="es/contactanos">
+                <Link to="/es/contactanos">
                     <CardHeader>
                         <img src="/imgs/funny-creator-and-kratky.png"
                             className="rounded-t-md"

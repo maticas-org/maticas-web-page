@@ -233,7 +233,7 @@ function VPDArticle() {
             <p className="text-1xl text-center">¡Déjanos tus comentarios y sugerencias! 🌱</p>
             <div className="h-4"></div>
 
-            <Link to="/contact-us">
+            <Link to="/es/contactanos">
                 <Button className="w-1/2 mx-auto">Contáctanos, es gratis 😉 </Button>
             </Link>
             <div className="h-16"></div>
