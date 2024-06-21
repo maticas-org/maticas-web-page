@@ -68,14 +68,16 @@ const InteractiveChart: React.FC = () => {
       },
     },
     onClick: (e: any, element: any) => {
+      console.log('e', e);
       if (element.length) {
         const hour = element[0].index;
-        const value = prompt('Ingresa un valor de PAR:', parMeasurements[hour]);
+        const value = prompt('Ingresa un valor de PAR:', String(parMeasurements[hour]));
         if (value !== null) {
           handlePointDrag(hour, parseFloat(value));
         }
       }
     },
+    
   };
 
   const calculateDLI = () => {
