@@ -17,22 +17,43 @@ export const OurNextBlogPosts = () => {
             <div className="h-4"></div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
-            {/* DLI */}
+            {/* dew point */}
             <Card className="rounded-md shadow-md max-w-xs mx-auto">
-                <Link to="/es/blog/dli">
+                <Link to="/es/blog/dp">
                     <CardHeader>
-                        <img src="/imgs/blog/dli-article-preview.png"
+                        <img src="/imgs/blog/dp-article-preview.png"
                             className="rounded-t-md"
-                            alt="Placeholder"
+                            alt="dew point article preview - vista previa del artículo de punto de rocío"
                             style={{textAlign: "center"}}
                         />
                     </CardHeader>
                     <CardContent>
-                        <CardTitle>DLI (Daily Light Integral), todo lo que necesitas saber</CardTitle>
+                        <CardTitle>DP (Dew Point) - Punto de Rocío, para que sirve y mucho más</CardTitle>
                         <div className="h-4"></div>
                         <CardDescription>
-                            <p>¿Qué es DLI? ¿Cómo se mide? ¿Cómo afecta a las plantas? ¿Cómo se puede controlar? Todas estas preguntas y más serán respondidas en nuestro próximo artículo.</p>
-                            <p>Además te compartiremos una herramienta completamente gratuita para compensarlo en tu cultivo.</p>
+                            <p> ¿Qué es el punto de rocío? ¿Cómo se mide? ¿Cómo afecta a las plantas? ¿Cómo se puede controlar? Todas estas preguntas y más serán respondidas en nuestro próximo artículo. </p>
+                            <p><em>Además te compartiremos una herramienta completamente gratuita para calcularlo en tu cultivo.</em></p>
+                        </CardDescription>
+                    </CardContent>
+                </Link>
+            </Card>
+
+            {/* PAR */}
+            <Card className="rounded-md shadow-md max-w-xs mx-auto">
+                <Link to="/es/blog/par">
+                    <CardHeader>
+                        <img src="/imgs/blog/par-article-preview.png"
+                            className="rounded-t-md"
+                            alt="PAR article preview - vista previa del artículo de PAR"
+                            style={{textAlign: "center"}}
+                        />
+                    </CardHeader>
+                    <CardContent>
+                        <CardTitle>PAR (Photosynthetically Active Radiation) - Radiación Fotosintéticamente Activa</CardTitle>
+                        <div className="h-4"></div>
+                        <CardDescription>
+                            <p><em> Herramientas para medir la luz en tu cultivo, cómo afecta a las plantas y cómo puedes controlarla. </em></p>
+                            <p> ¿Qué es PAR? ¿Cómo se mide? ¿Cómo afecta a las plantas? ¿Cómo se puede controlar? Todas estas preguntas y más serán respondidas en nuestro próximo artículo. </p>
                         </CardDescription>
                     </CardContent>
                 </Link>

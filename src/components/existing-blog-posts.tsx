@@ -21,10 +21,10 @@ import {
       // Add more articles as needed
       {
         id: 2,
-        link: "/es/blog",
-        imgSrc: "",
-        title: "",
-        description: "",
+        link: "/es/blog/dli",
+        imgSrc: "/imgs/blog/dli-article-preview.png",
+        title: "DLI (Daily Light Integral), todo lo que necesitas saber",
+        description: "¿Qué es DLI? ¿Cómo se mide? ¿Cómo afecta a las plantas? ¿Cómo se puede controlar? Todas estas preguntas y más serán respondidas en nuestro próximo artículo. Además te compartiremos una herramienta completamente gratuita para compensarlo en tu cultivo.",
       },
 
       {
