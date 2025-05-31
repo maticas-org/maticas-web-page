@@ -18,6 +18,18 @@ RUN npm run build
 ################################################################################
 FROM nginx:alpine
 
+# 2.0 Install debugging/network tools:
+#     - iproute2 provides "ss" (socket statistics)
+#     - openssl for TLS/SSL diagnostics
+#     - curl for HTTP(S) checks
+#     - bind-tools (drill/dig) for DNS lookups
+RUN apk update && \
+    apk add --no-cache \
+      iproute2        \
+      openssl         \
+      curl            \
+      bind-tools
+
 # 2.1 Create folder for SSL inside container
 RUN mkdir -p /etc/nginx/ssl
 
