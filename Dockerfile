@@ -1,32 +1,39 @@
-# Use the official Node.js image as the base image
+################################################################################
+# 1️⃣ Build Stage (Node) – installs deps and produces /app/dist
+################################################################################
 FROM node:18-alpine AS build
 
-# Set the working directory in the container
 WORKDIR /app
 
-# Copy package.json and package-lock.json to the container
+# 1) Copy package.json & package-lock.json, install dependencies
 COPY package*.json ./
-
-# Install dependencies
 RUN npm install
 
-# Copy the rest of the application code to the container
+# 2) Copy all source, then build (creates /app/dist)
 COPY . .
-
-# Build the application
 RUN npm run build
 
-# Use a minimal Nginx image to serve the built application
+################################################################################
+# 2️⃣ Run Stage (Nginx) – serves static from /usr/share/nginx/html, with SSL
+################################################################################
 FROM nginx:alpine
 
-# Copy the built files from the previous stage to the Nginx container
-COPY --from=build /app/dist /usr/share/nginx/html
+# 2.1 Create folder for SSL inside container
+RUN mkdir -p /etc/nginx/ssl
 
-# Copy custom Nginx configuration file
+# 2.2 Copy your SSL files into that folder
+COPY ssl/maticas-tech_com.key       /etc/nginx/ssl/maticas-tech_com.key
+COPY ssl/maticas-tech_com.crt       /etc/nginx/ssl/maticas-tech_com.crt
+COPY ssl/maticas-tech_com.ca-bundle /etc/nginx/ssl/maticas-tech_com.ca-bundle
+
+# 2.3 Copy custom Nginx config (which expects those exact paths)
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 
-# Expose port 80 to the outside world
-EXPOSE 80
+# 2.4 Copy the “dist” folder from build stage into Nginx’s web root
+COPY --from=build /app/dist /usr/share/nginx/html
 
-# Start Nginx when the container launches
+# 2.5 Expose both HTTP (80) and HTTPS (443)
+EXPOSE 80 443
+
+# 2.6 Start Nginx in the foreground
 CMD ["nginx", "-g", "daemon off;"]
