@@ -1,3 +1,4 @@
+import { Navbar } from '@/components/navbar';
 import { TriangleAlert } from "lucide-react"
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
 import Table from 'react-bootstrap/Table';
@@ -44,9 +45,10 @@ function DataLoggerLanding() {
             </script>
         </Helmet>
 
-
         <div>
-            
+            <Navbar />
+            <div className="h-6"></div>
+
             {/* Alert */}
             <Alert>
             <TriangleAlert className="w-6 h-6" />
