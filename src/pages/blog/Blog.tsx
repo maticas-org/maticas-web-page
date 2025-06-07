@@ -12,36 +12,45 @@ export const Blog = () => {
             <title>Blog | Maticas Tech - Soluciones de Agricultura Inteligente</title>
             <meta name="description" content="Bienvenido al Blog de Maticas Tech, en esta sección puede aprender sobre soluciones de agricultura inteligente utilizando IA, IoT y aprendizaje automático para una gestión eficiente de la agricultura y los datos. También puede encontrar muchas métricas relevantes y estudios de caso." />
             <meta name="keywords" content="agricultura inteligente, déficit de presión de vapor, VPD, integral de luz diurna, DLI, calculadora de integral de luz diurna, calculadora de déficit de presión de vapor, IoT en agricultura, Maticas Tech" />
-            
-            <meta property='og:title' content='Blog | Maticas Tech - Soluciones de Agricultura Inteligente'/>
-            <meta property='og:description' content='Bienvenido al Blog de Maticas Tech, en esta sección puede aprender sobre soluciones de agricultura inteligente utilizando IA, IoT y aprendizaje automático para una gestión eficiente de la agricultura y los datos. También puede encontrar muchas métricas relevantes y estudios de caso.'/>
-            <script type="application/ld+json">
-            {JSON.stringify({
-                "@context": "http://schema.org",
-                "@type": "WebPage",
-                "name": "Blog",
-                "description": "Bienvenido al Blog de Maticas Tech, en esta sección puede aprender sobre soluciones de agricultura inteligente utilizando IA, IoT y aprendizaje automático para una gestión eficiente de la agricultura y los datos. También puede encontrar muchas métricas relevantes y estudios de caso.",
-                "url": "http://www.maticas-tech.com/es/blog",
-                "inLanguage": "es",
-                "breadcrumb": {
-                "@type": "BreadcrumbList",
-                },
-                "author": {
-                "@type": "Organization",
-                "name": "Maticas Tech",
-                "url": "http://www.maticas-tech.com/es"
-                },
-                "publisher": {
-                "@type": "Organization",
-                "name": "Maticas Tech",
-                "url": "http://www.maticas-tech.com/es"
-                },
-                "datePublished": "2024-06-11",
-                "dateModified": "2024-06-11"
-            })}
-            </script>
 
+            <meta property="og:title" content="Blog | Maticas Tech - Soluciones de Agricultura Inteligente" />
+            <meta property="og:description" content="Bienvenido al Blog de Maticas Tech, en esta sección puede aprender sobre soluciones de agricultura inteligente utilizando IA, IoT y aprendizaje automático para una gestión eficiente de la agricultura y los datos. También puede encontrar muchas métricas relevantes y estudios de caso." />
+            <meta property="og:url" content="https://www.maticas-tech.com/es/blog" />
+            <meta property="og:image" content="https://www.maticas-tech.com/maticas-tech-logo-color-2.png" />
+            <meta property="og:image:type" content="image/png" />
+            <meta property="og:image:width" content="1200" />
+            <meta property="og:image:height" content="630" />
+            
+            <link rel="canonical" href="https://www.maticas-tech.com/es/blog" />
+
+            <script type="application/ld+json">
+                {JSON.stringify({
+                    "@context": "http://schema.org",
+                    "@type": "WebPage",
+                    "name": "Blog",
+                    "description": "Bienvenido al Blog de Maticas Tech, en esta sección puede aprender sobre soluciones de agricultura inteligente utilizando IA, IoT y aprendizaje automático para una gestión eficiente de la agricultura y los datos. También puede encontrar muchas métricas relevantes y estudios de caso.",
+                    "url": "https://www.maticas-tech.com/es/blog",
+                    "inLanguage": "es",
+                    "breadcrumb": {
+                        "@type": "BreadcrumbList"
+                    },
+                    "author": {
+                        "@type": "Organization",
+                        "name": "Maticas Tech",
+                        "url": "https://www.maticas-tech.com/es"
+                    },
+                    "publisher": {
+                        "@type": "Organization",
+                        "name": "Maticas Tech",
+                        "url": "https://www.maticas-tech.com/es"
+                    },
+                    "datePublished": "2024-06-11",
+                    "dateModified": "2024-06-11"
+                })}
+            </script>
         </Helmet>
+
+
         <div>
             <Navbar />
             <OurBlogPosts />

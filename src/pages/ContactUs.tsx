@@ -14,6 +14,10 @@ export const ContactUs = () => {
 
             <meta property='og:title' content='Contáctanos | Maticas Tech - Soluciones Agrícolas Inteligentes'/>
             <meta property='og:description' content='Estamos listos para ayudarte a llevar tu proyecto al siguiente nivel o ayudarte con lo que necesites. Contáctanos a través de los siguientes medios: WhatsApp, Telegram, correo electrónico o teléfono. Nos especializamos en soluciones de agricultura inteligente utilizando IA, IoT y aprendizaje automático para una gestión eficiente de la agricultura y los datos.'/>
+            <meta property="og:image" content="https://www.maticas-tech.com/maticas-tech-logo-color-2.png" />
+            <meta property="og:image:type" content="image/png" />
+            <meta property="og:image:width" content="1200" />
+            <meta property="og:image:height" content="630" />
             <script type="application/ld+json">
             {JSON.stringify({
                 "@context": "http://schema.org",
