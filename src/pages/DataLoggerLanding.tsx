@@ -18,6 +18,10 @@ function DataLoggerLanding() {
             <meta property="og:title" content="Monitoreo Inteligente | Maticas Tech - Soluciones Agrícolas Inteligentes" />
             <meta property="og:description" content="Monitorea tu cultivo, humedad, temperatura, déficit de presión a vapor (VPD), integral diaria de luz (DLI) y toma decisiones informadas e inteligentes con nuestra solución, obten mejores resultados automatizados que se traducen en más dinero y mejores cosechas." />
             <meta property="og:url" content="https://www.maticas-tech.com/es/servicios/registrador-de-datos" />
+            <meta property="og:image" content="https://www.maticas-tech.com/maticas-tech-logo-color-2.png" />
+            <meta property="og:image:type" content="image/png" />
+            <meta property="og:image:width" content="1200" />
+            <meta property="og:image:height" content="630" />
 
             <link rel="canonical" href="https://www.maticas-tech.com/es/servicios/registrador-de-datos" />
 
