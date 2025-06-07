@@ -25,7 +25,7 @@ function DLIArticle() {
             "@type": "WebPage",
             "name": "Blog DLI",
             "description": "Qué es el Day Light Integral (DLI), su importancia, cómo calcularlo y cómo tomar mejores decisiones en la agricultura basándose en esta variable.",
-            "url": "http://www.maticas-tech.com/es/blog/dli",
+            "url": "https://www.maticas-tech.com/es/blog/dli",
             "inLanguage": "es",
             "breadcrumb": {
               "@type": "BreadcrumbList",
@@ -33,12 +33,12 @@ function DLIArticle() {
             "author": {
               "@type": "Organization",
               "name": "Maticas Tech",
-              "url": "http://www.maticas-tech.com/es"
+              "url": "https://www.maticas-tech.com/es"
             },
             "publisher": {
               "@type": "Organization",
               "name": "Maticas Tech",
-              "url": "http://www.maticas-tech.com/es"
+              "url": "https://www.maticas-tech.com/es"
             },
             "datePublished": "2024-06-20",
             "dateModified": "2024-06-20"

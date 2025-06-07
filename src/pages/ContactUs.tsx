@@ -24,7 +24,7 @@ export const ContactUs = () => {
                 "@type": "WebPage",
                 "name": "Blog VPD",
                 "description": "Estamos listos para ayudarte a llevar tu proyecto al siguiente nivel o ayudarte con lo que necesites. Contáctanos a través de los siguientes medios: WhatsApp, Telegram, correo electrónico o teléfono. Nos especializamos en soluciones de agricultura inteligente utilizando IA, IoT y aprendizaje automático para una gestión eficiente de la agricultura y los datos.",
-                "url": "http://www.maticas-tech.com/es/contactanos",
+                "url": "https://www.maticas-tech.com/es/contactanos",
                 "inLanguage": "es",
                 "breadcrumb": {
                 "@type": "BreadcrumbList",
@@ -32,12 +32,12 @@ export const ContactUs = () => {
                 "author": {
                 "@type": "Organization",
                 "name": "Maticas Tech",
-                "url": "http://www.maticas-tech.com/es"
+                "url": "https://www.maticas-tech.com/es"
                 },
                 "publisher": {
                 "@type": "Organization",
                 "name": "Maticas Tech",
-                "url": "http://www.maticas-tech.com/es"
+                "url": "https://www.maticas-tech.com/es"
                 },
                 "datePublished": "2024-06-11",
                 "dateModified": "2024-06-11"

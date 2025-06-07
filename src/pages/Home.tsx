@@ -26,7 +26,7 @@ function Home() {
             "@type": "WebPage",
             "name": "Inicio",
             "description": "Bienvenido a Maticas Tech, su proveedor principal de soluciones de agricultura inteligente utilizando IA, IoT y aprendizaje automático para una gestión eficiente de la agricultura y los datos.",
-            "url": "http://www.maticas-tech.com/es",
+            "url": "https://www.maticas-tech.com/es",
             "inLanguage": "es",
             "breadcrumb": {
               "@type": "BreadcrumbList",
@@ -35,19 +35,19 @@ function Home() {
                   "@type": "ListItem",
                   "position": 1,
                   "name": "Inicio",
-                  "item": "http://www.maticas-tech.com/es"
+                  "item": "https://www.maticas-tech.com/es"
                 }
               ]
             },
             "author": {
               "@type": "Organization",
               "name": "Maticas Tech",
-              "url": "http://www.maticas-tech.com/es"
+              "url": "https://www.maticas-tech.com/es"
             },
             "publisher": {
               "@type": "Organization",
               "name": "Maticas Tech",
-              "url": "http://www.maticas-tech.com/es"
+              "url": "https://www.maticas-tech.com/es"
             },
             "datePublished": "2024-06-11",
             "dateModified": "2024-06-11"
