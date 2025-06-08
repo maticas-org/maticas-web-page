@@ -1,2 +1,2 @@
 nginx.local.conf merge=ours
-dev.local.Dockerfile merge=ours
+local.dev.Dockerfile merge=ours
