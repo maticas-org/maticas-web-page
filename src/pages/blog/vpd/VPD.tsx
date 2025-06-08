@@ -18,13 +18,17 @@ function VPDArticle() {
 
             <meta property='og:title' content='Blog VPD | Maticas Tech - Soluciones de Agricultura Inteligente'/>
             <meta property='og:description' content='qué es el déficit de presión de vapor, cómo controlar el déficit de presión de vapor, beneficios de controlar el déficit de presión de vapor, consecuencias de no controlar el déficit de presión de vapor, cómo controlar el déficit de presión de vapor, gráfico de VPD, solucionador de VPD todo en un solo lugar.'/>
+            <meta property="og:image" content="https://www.maticas-tech.com/maticas-tech-logo-color-2.png" />
+            <meta property="og:image:type" content="image/png" />
+            <meta property="og:image:width" content="1200" />
+            <meta property="og:image:height" content="630" />
             <script type="application/ld+json">
             {JSON.stringify({
                 "@context": "http://schema.org",
                 "@type": "WebPage",
                 "name": "Blog VPD",
                 "description": "qué es el déficit de presión de vapor, cómo controlar el déficit de presión de vapor, beneficios de controlar el déficit de presión de vapor, consecuencias de no controlar el déficit de presión de vapor, cómo controlar el déficit de presión de vapor, gráfico de VPD, solucionador de VPD todo en un solo lugar.",
-                "url": "http://www.maticas-tech.com/es/blog/vpd",
+                "url": "https://www.maticas-tech.com/es/blog/vpd",
                 "inLanguage": "es",
                 "breadcrumb": {
                 "@type": "BreadcrumbList",
@@ -32,12 +36,12 @@ function VPDArticle() {
                 "author": {
                 "@type": "Organization",
                 "name": "Maticas Tech",
-                "url": "http://www.maticas-tech.com/es"
+                "url": "https://www.maticas-tech.com/es"
                 },
                 "publisher": {
                 "@type": "Organization",
                 "name": "Maticas Tech",
-                "url": "http://www.maticas-tech.com/es"
+                "url": "https://www.maticas-tech.com/es"
                 },
                 "datePublished": "2024-06-11",
                 "dateModified": "2024-06-11"

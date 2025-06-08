@@ -15,13 +15,17 @@ function DLIArticle() {
         <meta name="keywords" content="DLI, Day Light Integral, Integral de Luz Diaria, agricultura, cultivo, invernadero, fotosíntesis, PAR, Maticas Tech" />
         <meta property='og:title' content='Blog DLI | Maticas Tech - Soluciones de Agricultura Inteligente'/>
         <meta property='og:description' content='Qué es el Day Light Integral (DLI), su importancia, cómo calcularlo y cómo tomar mejores decisiones en la agricultura basándose en esta variable.'/>
+        <meta property="og:image" content="https://www.maticas-tech.com/maticas-tech-logo-color-2.png" />
+        <meta property="og:image:type" content="image/png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "http://schema.org",
             "@type": "WebPage",
             "name": "Blog DLI",
             "description": "Qué es el Day Light Integral (DLI), su importancia, cómo calcularlo y cómo tomar mejores decisiones en la agricultura basándose en esta variable.",
-            "url": "http://www.maticas-tech.com/es/blog/dli",
+            "url": "https://www.maticas-tech.com/es/blog/dli",
             "inLanguage": "es",
             "breadcrumb": {
               "@type": "BreadcrumbList",
@@ -29,12 +33,12 @@ function DLIArticle() {
             "author": {
               "@type": "Organization",
               "name": "Maticas Tech",
-              "url": "http://www.maticas-tech.com/es"
+              "url": "https://www.maticas-tech.com/es"
             },
             "publisher": {
               "@type": "Organization",
               "name": "Maticas Tech",
-              "url": "http://www.maticas-tech.com/es"
+              "url": "https://www.maticas-tech.com/es"
             },
             "datePublished": "2024-06-20",
             "dateModified": "2024-06-20"

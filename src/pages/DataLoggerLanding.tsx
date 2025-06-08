@@ -1,3 +1,4 @@
+import { Navbar } from '@/components/navbar';
 import { TriangleAlert } from "lucide-react"
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
 import Table from 'react-bootstrap/Table';
@@ -9,44 +10,52 @@ import { Helmet } from 'react-helmet';
 function DataLoggerLanding() {
   return (
     <>
-
         <Helmet>
             <title>Monitoreo Inteligente | Maticas Tech - Soluciones Agrícolas Inteligentes</title>
             <meta name="description" content="Monitorea tu cultivo, humedad, temperatura, déficit de presión a vapor (VPD), integral diaria de luz (DLI) y toma decisiones informadas e inteligentes con nuestra solución, obten mejores resultados automatizados que se traducen en más dinero y mejores cosechas." />
             <meta name="keywords" content="agricultura inteligente, déficit de presión a vapor, integral diaria de luz, VPD, DLI, temperatura, humedad, mejora rendimientos de cultivo, monitoreo de cultivo, IA en agricultura, aprendizaje automático en agricultura, registrador de datos, visualización de datos, análisis de datos, IoT en agricultura, Maticas Tech" />
 
-            <meta property='og:title' content='Monitoreo Inteligente | Maticas Tech - Soluciones Agrícolas Inteligentes'/>
-            <meta property='og:description' content='Monitorea tu cultivo, humedad, temperatura, déficit de presión a vapor (VPD), integral diaria de luz (DLI) y toma decisiones informadas e inteligentes con nuestra solución, obten mejores resultados automatizados que se traducen en más dinero y mejores cosechas.'/>
+            <meta property="og:title" content="Monitoreo Inteligente | Maticas Tech - Soluciones Agrícolas Inteligentes" />
+            <meta property="og:description" content="Monitorea tu cultivo, humedad, temperatura, déficit de presión a vapor (VPD), integral diaria de luz (DLI) y toma decisiones informadas e inteligentes con nuestra solución, obten mejores resultados automatizados que se traducen en más dinero y mejores cosechas." />
+            <meta property="og:url" content="https://www.maticas-tech.com/es/servicios/registrador-de-datos" />
+            <meta property="og:image" content="https://www.maticas-tech.com/maticas-tech-logo-color-2.png" />
+            <meta property="og:image:type" content="image/png" />
+            <meta property="og:image:width" content="1200" />
+            <meta property="og:image:height" content="630" />
+
+            <link rel="canonical" href="https://www.maticas-tech.com/es/servicios/registrador-de-datos" />
+
             <script type="application/ld+json">
-            {JSON.stringify({
-                "@context": "http://schema.org",
-                "@type": "WebPage",
-                "name": "Blog VPD",
-                "description": "Monitorea tu cultivo, humedad, temperatura, déficit de presión a vapor (VPD), integral diaria de luz (DLI) y toma decisiones informadas e inteligentes con nuestra solución, obten mejores resultados automatizados que se traducen en más dinero y mejores cosechas.",
-                "url": "http://www.maticas-tech.com/es/servicios/registrador-de-datos",
-                "inLanguage": "es",
-                "breadcrumb": {
-                "@type": "BreadcrumbList",
-                },
-                "author": {
-                "@type": "Organization",
-                "name": "Maticas Tech",
-                "url": "http://www.maticas-tech.com/es"
-                },
-                "publisher": {
-                "@type": "Organization",
-                "name": "Maticas Tech",
-                "url": "http://www.maticas-tech.com/es"
-                },
-                "datePublished": "2024-06-11",
-                "dateModified": "2024-06-11"
-            })}
+                {JSON.stringify({
+                    "@context": "http://schema.org",
+                    "@type": "WebPage",
+                    "name": "Blog VPD",
+                    "description": "Monitorea tu cultivo, humedad, temperatura, déficit de presión a vapor (VPD), integral diaria de luz (DLI) y toma decisiones informadas e inteligentes con nuestra solución, obten mejores resultados automatizados que se traducen en más dinero y mejores cosechas.",
+                    "url": "https://www.maticas-tech.com/es/servicios/registrador-de-datos",
+                    "inLanguage": "es",
+                    "breadcrumb": {
+                        "@type": "BreadcrumbList"
+                    },
+                    "author": {
+                        "@type": "Organization",
+                        "name": "Maticas Tech",
+                        "url": "https://www.maticas-tech.com/es"
+                    },
+                    "publisher": {
+                        "@type": "Organization",
+                        "name": "Maticas Tech",
+                        "url": "https://www.maticas-tech.com/es"
+                    },
+                    "datePublished": "2024-06-11",
+                    "dateModified": "2024-06-11"
+                })}
             </script>
         </Helmet>
 
-
         <div>
-            
+            <Navbar />
+            <div className="h-6"></div>
+
             {/* Alert */}
             <Alert>
             <TriangleAlert className="w-6 h-6" />
