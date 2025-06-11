@@ -29,6 +29,14 @@ import {
 
       {
         id: 3,
+        link: "/es/blog/kratky",
+        imgSrc: "/imgs/blog/kratky-article-preview.jpg",
+        title: "Sistema Hidropónico Kratky",
+        description: "¿Qué es el sistema Kratky? ¿Cómo funciona? ¿Cuáles son sus beneficios? ¿Cómo usar el sistema Kratky opensource ideado por Maticas Tech? Descúbrelo en este artículo.",
+      },
+
+      {
+        id: 4,
         link: "/es/blog",
         imgSrc: "",
         title: "",

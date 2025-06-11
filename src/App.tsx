@@ -8,6 +8,7 @@ import { Blog } from './pages/blog/Blog';
 import VPDArticle from './pages/blog/vpd/VPD';
 import DLIArticle from './pages/blog/dli/DLI';
 import { ContactUs } from './pages/ContactUs';
+import KratkyArticle from './pages/blog/kratky/Kratky';
 import { StillWorkingOnIt } from './pages/StillWorkingOnIt';
 import { Helmet } from 'react-helmet';
 
@@ -77,6 +78,7 @@ function App() {
           <Route path="/es/blog" element={<Blog/>} />
           <Route path="/es/blog/vpd" element={<VPDArticle/>} />
           <Route path="/es/blog/dli" element={<DLIArticle/>} />
+          <Route path="/es/blog/kratky" element={<KratkyArticle />} />
           <Route path="/es/contactanos" element={<ContactUs />} />
           <Route path="/es/servicios/registrador-de-datos" element={<DataLoggerLanding />} />
           <Route path="*" element={<StillWorkingOnIt />} />
